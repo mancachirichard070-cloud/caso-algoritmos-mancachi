@@ -1,6 +1,4 @@
-﻿Nombre: Richard Mancachi Tantani
-
-# H2 - Estructura de datos elegida
+﻿# H2 - Estructura de datos elegida
 
 ## 1. Estructuras seleccionadas
 
@@ -10,15 +8,15 @@ La versión ingenua utiliza List y recorre sus elementos hasta encontrar el cód
 
 ## 2. Tabla de operaciones y costos
 
-| Operación | Cuántas veces se hace | Costo O |
-|---|---|---|
-| Insertar | 20 registros en la muestra de 10 días | O(1) amortizado en List y O(1) promedio en Dictionary |
-| Buscar por clave | Consultas al historial; cantidad diaria no registrada | O(n) en List y O(1) promedio en Dictionary |
+| Operación | Cuántas veces se hace                 | Costo O                                               |
+|---        |---                                    |---                                                    |
+| Insertar  | 20 registros en la muestra de 10 días | O(1) amortizado en List y O(1) promedio en Dictionary |
+| Buscar por clav| Consultas al historial; cantidad diaria no registrada | O(n) en List y O(1) promedio en Dictionary |
 | Recorrer en orden | Al revisar el historial | O(n) en List |
-| Borrar | Ocasionalmente | O(n) en List; O(1) promedio para localizar por clave en Dictionary |
-| Buscar el menor | En consultas específicas | O(n) |
-| Buscar el mayor | En consultas específicas | O(n) |
-| Buscar por rango | Cuando se consulta un periodo | O(n) recorriendo una lista |
+| Borrar            | Ocasionalmente       | O(n) en List; O(1) promedio para localizar por clave en Dictionary |
+| Buscar el menor   | En consultas específicas | O(n) |
+| Buscar el mayor   | En consultas específicas | O(n) |
+| Buscar por rango  | Cuando se consulta un periodo | O(n) recorriendo una lista |
 
 ## 3. Justificación
 

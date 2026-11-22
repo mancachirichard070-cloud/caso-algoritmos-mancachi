@@ -1,6 +1,4 @@
-﻿Nombre: Richard Mancachi Tantani
-
-# H2 - Inventario de operaciones
+﻿# H2 - Inventario de operaciones
 
 ## 1. Datos del caso
 
@@ -17,15 +15,15 @@ Para las pruebas se utilizarán registros simulados, creados a partir de la mues
 
 ## 2. Operaciones del proceso
 
-| Operación | Aplicación |
-|---|---|
-| Buscar por clave | Localizar una venta mediante su código único. |
-| Insertar | Registrar una nueva venta y actualizar el inventario. |
-| Borrar | Eliminar o anular una venta ingresada por error. |
-| Recorrer en orden | Revisar las ventas por fecha para elaborar reportes. |
-| Buscar el menor | Identificar la venta con menor importe. |
-| Buscar el mayor | Identificar la venta con mayor importe. |
-| Buscar por rango | Consultar ventas entre dos fechas. |
+| Operación         | Aplicación                                             |
+------------------------------------------------------------------------------
+| Buscar por clave  | Localizar una venta mediante su código único.          |
+| Insertar          | Registrar una nueva venta y actualizar el inventario.  |
+| Borrar            | Eliminar o anular una venta ingresada por error.       |
+| Recorrer en orden | Revisar las ventas por fecha para elaborar reportes.   |
+| Buscar el menor   | Identificar la venta con menor importe.                |
+| Buscar el mayor   | Identificar la venta con mayor importe.                |
+| Buscar por rango  | Consultar ventas entre dos fechas.                     |
 
 ## 3. Operaciones más frecuentes
 
