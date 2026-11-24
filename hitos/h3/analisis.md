@@ -80,11 +80,11 @@ La programacion dinamica encuentra que seleccionar una unidad de UNO de 4,7 kg p
 
 ## 6. Comparacion de resultados
 
-| Metodo | Combinacion | Peso | Valor |
-|---|---|---:|---:|
-| Voraz | 7 unidades pequenas | 4.340 g | Bs 84 |
-| Fuerza bruta | 1 unidad grande | 4.700 g | Bs 90 |
-| Programacion dinamica | 1 unidad grande | 4.700 g | Bs 90 |
+| Metodo                | Combinacion           | Peso    | Valor |
+|---                    |---                    |---:     |---:   |
+| Voraz                 | 7 unidades pequenas   | 4.340 g | Bs 84 |
+| Fuerza bruta          | 1 unidad grande       | 4.700 g | Bs 90 |
+| Programacion dinamica | 1 unidad grande       | 4.700 g | Bs 90 |
 
 ## 7. Identificacion del problema dinamico
 
@@ -94,11 +94,11 @@ Subestructura optima: la solucion optima de un problema puede construirse utiliz
 
 ## 8. Complejidad de los algoritmos
 
-| Algoritmo | Complejidad temporal |
-|---|---|
-| Voraz | O(n log n), considerando el ordenamiento |
-| Fuerza bruta | O(n x 2^n) |
-| Programacion dinamica | O(n x W) |
+| Algoritmo             | Complejidad temporal                     |
+|---                    |---                                       |
+| Voraz                 | O(n log n), considerando el ordenamiento |
+| Fuerza bruta          | O(n x 2^n)                               |
+| Programacion dinamica | O(n x W)                                 |
 
 Donde n representa la cantidad de productos y W representa la capacidad de la mochila en unidades enteras de peso.
 

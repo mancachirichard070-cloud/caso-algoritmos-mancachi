@@ -20,20 +20,20 @@ Para mejorar la resolucion de los tiempos, el programa repitio 1.000 veces cada 
 
 ## 3. Resultados de las mediciones
 
-| Objetos | Algoritmo | Corrida 1 (ms) | Corrida 2 (ms) | Corrida 3 (ms) | Promedio (ms) |
-|---:|---|---:|---:|---:|---:|
-| 16 | Voraz | 0.003 | 0.002 | 0.002 | 0.002 |
-| 16 | Fuerza bruta | 2.277 | 2.607 | 2.318 | 2.401 |
-| 16 | Programacion dinamica | 0.995 | 1.613 | 0.950 | 1.186 |
-| 18 | Voraz | 0.002 | 0.003 | 0.003 | 0.003 |
-| 18 | Fuerza bruta | 10.142 | 16.033 | 18.388 | 14.854 |
-| 18 | Programacion dinamica | 0.535 | 0.527 | 0.507 | 0.523 |
-| 20 | Voraz | 0.003 | 0.003 | 0.003 | 0.003 |
-| 20 | Fuerza bruta | 44.840 | 40.891 | 38.245 | 41.325 |
-| 20 | Programacion dinamica | 0.550 | 0.609 | 0.489 | 0.550 |
-| 22 | Voraz | 0.005 | 0.006 | 0.015 | 0.008 |
-| 22 | Fuerza bruta | 153.897 | 138.290 | 164.412 | 152.200 |
-| 22 | Programacion dinamica | 0.485 | 0.446 | 0.432 | 0.454 |
+| Objetos   | Algoritmo             | Corrida 1 (ms) | Corrida 2 (ms) | Corrida 3 (ms) | Promedio (ms)  |
+|---:       |---                    |---:   |---:                     |---:            |---:            |
+| 16        | Voraz                 | 0.003 | 0.002                   | 0.002          | 0.002          |
+| 16        | Fuerza bruta          | 2.277 | 2.607                   | 2.318          | 2.401          |
+| 16        | Programacion dinamica | 0.995 | 1.613                   | 0.950          | 1.186          |
+| 18        | Voraz                 | 0.002 | 0.003                   | 0.003          | 0.003          |
+| 18        | Fuerza bruta          | 10.142| 16.033                  | 18.388         | 14.854         |
+| 18        | Programacion dinamica | 0.535 | 0.527                   | 0.507          | 0.523          |
+| 20        | Voraz                 | 0.003 | 0.003                   | 0.003          | 0.003          |
+| 20        | Fuerza bruta          | 44.840| 40.891                  | 38.245         | 41.325         |
+| 20        | Programacion dinamica | 0.550 | 0.609                   | 0.489          | 0.550          |
+| 22        | Voraz                 | 0.005 | 0.006                   | 0.015          | 0.008          |
+| 22        | Fuerza bruta          | 153.897|138.290                 | 164.412        | 152.200        |
+| 22        | Programacion dinamica | 0.485 | 0.446                   | 0.432          | 0.454          |
 
 ## 4. Crecimiento entre tamaños
 
